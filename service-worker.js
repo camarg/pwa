@@ -1,10 +1,11 @@
 var dataCacheName = 'camarg';
 var cacheName = 'camarg';
 var filesToCache = [
-  '/',
-  '/pwa/index.html',
+   '/pwa/index.html',
   '/pwa/manifest.json',
 ];
+// dev only
+if (typeof files == 'undefined')
 
 self.addEventListener('install', function(e) {
   console.log('[ServiceWorker] Install');
