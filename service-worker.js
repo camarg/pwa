@@ -1,8 +1,9 @@
-var dataCacheName = 'feijao2';
-var cacheName = 'feijao2';
+var dataCacheName = 'camarg';
+var cacheName = 'camarg';
 var filesToCache = [
   '/',
-  '/index.html'
+  '/pwa/index.html',
+  '/pwa/manifest.json',
 ];
 
 self.addEventListener('install', function(e) {
